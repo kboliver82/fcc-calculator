@@ -1,0 +1,45 @@
+body {
+  background: #333;
+}
+
+h1 em {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.calculator {
+  text-align: center;
+  width: 250px;
+  height: 335px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#answer {
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.calculator .row button {
+  width: 40px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+}
+
+.calculator .row {
+  display: block;
+}
+
+.calculator .row .tall {
+  height: 67px;
+  float: right;
+  margin-right: 24px;
+  margin-left: -8px;
+}
